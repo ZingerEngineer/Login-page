@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="150" viewBox="-1 -1 150 150">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #654de4;
+        fill-rule: evenodd;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect width="148" height="148"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip-path)">
+    <path id="eden_shape_1" data-name="eden shape 1" class="cls-1" d="M108.929,134.441S9.964,149.39,9.964,70.625V12.611S74,18.726,74,70.625,108.929,134.441,108.929,134.441Zm11.643-17.4s-29.108-10.5-29.108-46.412,46.572-28.907,46.572,0C138.036,101.071,120.572,117.037,120.572,117.037Z"/>
+  </g>
+</svg>

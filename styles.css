@@ -1,0 +1,133 @@
+html{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Mukta', sans-serif;
+}
+body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.right-side{
+    background-color: #654de4;
+    width: 50%;
+    height: 100%
+}
+.left-side{
+    background-color: #FFF;
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.first-block{
+    display: flex;
+}
+.third-block{
+    height: 248px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo-name{
+    margin: 0px;
+    padding-left: 15px;
+}
+.welcome-msg{
+    font-size: 30px;
+    color: #131313;
+    margin-bottom: 0px;
+    height: 50px;
+}
+.free-trial{
+    color: #666666;
+    font-size: 13px;
+}
+.separator{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    font-size: 15px;
+    color: #666666;
+}
+.google-sign-in{
+width: 100%;
+    height: 40px;
+    font-family: 'Mukta', sans-serif;
+    border-radius: 5px;
+    border-color: rgb(241 241 241);
+    border-width: 2px;
+    border-style: solid;
+    background-color: #FFF;
+    cursor: pointer;
+    margin-top: 40px;
+    padding: 0px;
+}
+.password-slot{
+    margin-top: 20px;
+}
+#icon{
+    padding-right: 12px;
+}
+.left-content{
+    height: 660px;
+    width: 50%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+.input-name{
+    margin: 0px;
+    font-size: 13px;
+    color: #333333;
+}
+.input-slot{
+    width: 100%;
+    height: 40px;
+    font-family: 'Mukta', sans-serif;
+    border-radius: 5px;
+    border-color: rgb(241 241 241);
+    border-width: 2px;
+    border-style: solid;
+    background-color: #FFF;
+    animation-duration: 0.4s;
+    padding: 0px;
+}
+input.input-slot:focus{
+    outline: none;
+}
+::-webkit-input-placeholder{
+    color: #c4c4c4;
+}
+.fotgot-password{
+    margin-top: 15px;
+    font-size: 13px;
+    color: #333333;
+}
+.no-account{
+    margin-top: 65px;
+    font-size: 13px;
+    color: #333333;
+}
+.sign-in{
+    background-color: #654de4;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    font-family: 'Mukta', sans-serif;
+    border-radius: 5px;
+    border-color: rgb(241 241 241);
+    border-width: 0px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 0px;
+}
