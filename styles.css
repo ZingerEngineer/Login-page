@@ -13,7 +13,6 @@ body{
 .right-side{
     background-color: #654de4;
     width: 50%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +41,8 @@ body{
     font-size: 30px;
     color: #131313;
     margin-bottom: 0px;
-    height: 50px;
+    margin-top:12px;
+    height: 40px;
 }
 .free-trial{
     color: #666666;
@@ -51,10 +51,10 @@ body{
 .separator{
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 35px;
-    margin-top: 35px;
-    font-size: 15px;
-    color: #666666;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    font-size: 12px;
+    color: #a5a9b4;
 }
 .google-sign-in{
 width: 100%;
@@ -66,22 +66,21 @@ width: 100%;
     border-style: solid;
     background-color: #FFF;
     cursor: pointer;
-    margin-top: 40px;
+    margin-top: 30px;
     padding: 0px;
 }
-.password-slot{
-    margin-top: 20px;
-}
+
 #icon{
     padding-right: 12px;
 }
 .left-content{
-    height: 660px;
+    height: 567px;
     width: 50%;
     display: flex;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
     flex-direction: column;
 }
 
@@ -92,19 +91,21 @@ width: 100%;
 .input-name{
     margin: 0px;
     font-size: 13px;
-    color: #333333;
+    color: #3a3f49;
+    font-weight: bold;
 }
 .input-slot{
-    width: 100%;
+    width: 95%;
     height: 40px;
-    font-family: 'Mukta', sans-serif;
+    font-family: Mukta, sans-serif;
     border-radius: 5px;
-    border-color: rgb(241 241 241);
+    border-color: rgb(241, 241, 241);
     border-width: 2px;
     border-style: solid;
-    background-color: #FFF;
+    background-color: rgb(255, 255, 255);
     animation-duration: 0.4s;
-    padding: 0px;
+    padding: 0;
+    padding-left: 4%;
 }
 input.input-slot:focus{
     outline: none;
@@ -113,14 +114,18 @@ input.input-slot:focus{
     color: #c4c4c4;
 }
 .fotgot-password{
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 13px;
-    color: #333333;
+    color: #3a3f49;
 }
 .no-account{
-    margin-top: 65px;
+    margin-top: 45px;
     font-size: 13px;
-    color: #333333;
+    color: #3a3f49;
+}
+
+.password-slot{
+    margin-top: 10px;
 }
 .sign-in{
     background-color: #654de4;
@@ -132,7 +137,7 @@ input.input-slot:focus{
     border-color: rgb(241 241 241);
     border-width: 0px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 0px;
 }
 .visitors{
